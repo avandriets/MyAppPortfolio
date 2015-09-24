@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView">
+
+<RelativeLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps !"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/btSpotifyStreamer"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="#fff08c35"
+        android:onClick="onClickSpotiphyStreamer"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:id="@+id/btScoresApp"
+        android:layout_below="@+id/btSpotifyStreamer"
+        android:layout_centerHorizontal="true"
+        android:background="#fff08c35"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/btLibraryApp"
+        android:layout_below="@+id/btScoresApp"
+        android:layout_centerHorizontal="true"
+        android:background="#fff08c35"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/btBuildItBigger"
+        android:background="#fff08c35"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btLibraryApp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btLibraryApp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/btXYZReader"
+        android:background="#fff08c35"
+        android:layout_below="@+id/btBuildItBigger"
+        android:layout_alignStart="@+id/btBuildItBigger"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/btCapstone"
+        android:background="#ffd5222a"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/btXYZReader"
+        android:layout_below="@+id/btXYZReader"/>
+</RelativeLayout>
+
+</ScrollView>
